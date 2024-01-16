@@ -19,50 +19,120 @@
                 <li>
                     <a href="#"><img src="./imgs/icons8-home-50.png" alt="" class="nav-img"></a>
                 </li>
-                <li><a href="#">STARTER</a></li>
-                <li><a href="#">MAIN COUNRSES</a></li>
-                <li><a href="#">DESSERT</a></li>
+                <li class="li-hover"><a href="#">STARTER</a></li>
+                <li class="li-hover"><a href="#">MAIN COUNRSES</a></li>
+                <li class="li-hover"><a href="#">DESSERT</a></li>
                 <li>
                     <a href="#">
                         <div class="search">
-                            <input type="text">
-                            <button>
-                            go
-                        </button>
+                            <input type="text" style="outline: none; padding-left: 5px;">
+                            <button class="search-btn">go</button>
                         </div>
                     </a>
                 </li>
             </ul>
         </nav>
-        <section class="section">
-            <div id="starter">
-                <nav class="starter-nav">
-                    Starter
-                </nav>
-                <ul>
-                    <li class="li">Chesnut and Mushroom Goujons <a href="#">(y)</a></li>
-                    <li class="li">Goat Cheese <a href="#">(y)</a></li>
-                    <li class="li">
-                        <p class="honey">HONEY SOY CHICKEN KEBABS <a href="#">(y)</a></p>
-                    </li>
-                    <li class="li">Seafood Salad <a href="#">(y)</a></li>
+        <div class="content">
+
+            <div class="sidebar">
+                <ul class="sidebar-ul">
+                    <li class="sidebar-ul_li"><a href="#">Cafe Labs</a></li>
+                    <li class="sidebar-ul_li"><a href="#">Expiration</a></li>
+                    <li class="sidebar-ul_li"><a href="#">Quis Bias</a></li>
+                    <li class="sidebar-ul_li"><a href="#">Euto mes Cafe</a></li>
+                    <li class="sidebar-ul_li"><a href="#">Blame Caaf</a></li>
                 </ul>
-                <a href="#starter" class="BTT">Back to Top</a>
+                <img class="sidebar-img" src="./imgs/company.png" alt="">
             </div>
 
-            <div id="desserts">
-                <nav class="starter-nav">
-                    Desserts
-                </nav>
-                <ul>
-                    <li class="li">Lemon Sorbet <a href="#">(y)</a></li>
-                    <li class="li">Chocolate Mud Pie <a href="#">(y)</a></li>
-                    <li class="li">Pecan Pie <a href="#">(y)</a></li>
-                    <li class="li">Selection of fine Cheese from around the World <a href="#">(y)</a></li>
-                </ul>
-                <a href="#desserts" class="BTT">Back to Top</a>
+            <section class="section">
+                <div id="starter">
+                    <nav class="starter-nav">
+                        Starter
+                    </nav>
+                    <ul>
+                        <li class="li">Chesnut and Mushroom Goujons <a href="#">(y)</a></li>
+                        <li class="li">Goat Cheese <a href="#">(y)</a></li>
+                        <li class="li">
+                            <p class="honey">HONEY SOY CHICKEN KEBABS <a href="#">(y)</a></p>
+                        </li>
+                        <li class="li">Seafood Salad <a href="#">(y)</a></li>
+                    </ul>
+                    <a href="#" class="BTT">Back to Top</a>
+                </div>
+    
+                <div id="desserts">
+                    <nav class="starter-nav">
+                        Desserts
+                    </nav>
+                    <ul>
+                        <li class="li">Lemon Sorbet <a href="#">(y)</a></li>
+                        <li class="li">Chocolate Mud Pie <a href="#">(y)</a></li>
+                        <li class="li">Pecan Pie <a href="#">(y)</a></li>
+                        <li class="li">Selection of fine Cheese from around the World <a href="#">(y)</a></li>
+                    </ul>
+                    <a href="#" class="BTT">Back to Top</a>
+                </div>
+
+                <div class="information">
+                    <nav class="starter-nav">
+                        INFORMATION
+                    </nav>
+                    <div class="information-sub">
+
+                        <input type="text" name="inp" class="information-sub_inp" placeholder="First Name">
+                        <input type="text" name="inp" class="information-sub_inp" placeholder="Last Name">
+                        <input type="email" name="inp" class="information-sub_inp" placeholder="Email">
+                        <input type="tel" name="inp" class="information-sub_inp" placeholder="Tel">
+                        <select name="inp" class="information-sub_inp">
+                            <option value="1">USA</option>
+                            <option value="2">VN</option>
+                            <option value="1">EU</option>
+                        </select>
+                        <div class="information-sub_inp">
+                            <input type="radio" id="Vienamese">
+                            <label for="#Vienamese">Vienamese</label>
+                            <input type="radio" id="Foreigners">
+                            <label for="#Foreigners">Foreigners</label>
+                        </div>
+                        <input type="text" name="inp" class="information-sub_inp note" placeholder="Note">
+                        <div class="information-sub_inp btn-group">
+                            <input type="submit" name="" class="information-btn">
+                            <button class="information-btn" >cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="events">
+                <p class="events-title">Envents</p>
+                <div class="events-block">
+                    <p class="events-block_title">
+                        Regular Meeting
+                    </p>
+                    <img src="./imgs/meeting.png" alt="" class="events-block_img">
+                    <p class="events-block_sub">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione doloribus labore nostrum exercitationem nesciunt, veniam deserunt. 
+                        Dolorum veritatis laudantium
+                    </p>
+                </div>
+                <div class="events-block">
+                    <p class="events-block_title">
+                        Product Lauches
+                    </p>
+                    <img src="./imgs/launch.png" alt="" class="events-block_img">
+                    <p class="events-block_sub">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione doloribus labore nostrum exercitationem nesciunt, veniam deserunt. 
+                    </p>
+                </div>
             </div>
-        </section>
+
+        </div>
+        <footer class="footer">
+            <p class="footer-title">
+                ABC Company - 12345678 - abccoffee@gmail.com
+            </p>
+        </footer>
     </div>
 </body>
 
